@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FORMULARIO </title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="css/js/formulario.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Gravitas+One&family=Ribeye&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1> F O R M U L A R I O </h1>
+    </header>
+
+    <main class="cont">
+        <section class="form">
+            <form id="miForm">
+                <label for="nombre"> NOMBRE(S): </label>
+                <input type="text" id="nombre" name="nombre" requerid>
+                <label for="apellidos"> APELLIDO(S): </label>
+                <input type="text" id="apellidos" name="apellidos" requerid>
+                <label for="edad"> EDAD: </label>
+                <input type="number" id="edad" name="edad" required>
+                <button type="submit"> ENVIAR </button>
+            </form>
+        </section>
+
+        <section class="result" id="result" style=" display: none;">
+            <div class="box">
+                <h2> INFORMACIÓN DEL USUARIO: </h2>
+                <p id="inf"> </p>
+                <button id="cerrar"> CERRAR </button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

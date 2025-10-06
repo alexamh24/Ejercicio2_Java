@@ -1,0 +1,122 @@
+:root{
+  --isabelline: #efe9e7ff; /* SI */
+  --lavender-web: #dae0f2ff; /* SI */
+  --mimi-pink: #f9cff2ff; /* SI */
+  --palatinate: #52154eff; /* SI */
+
+--old-lace: #fff4e4ff; /* SI */
+
+
+--timberwolf: #dbcdc6ff; /* SI */
+
+
+--finn: #643a71ff; /* SI */
+--amethyst: #8b5fbfff; /* SI */
+--french-mauve: #d183c9ff; /* SI */
+
+ 
+}
+
+body {
+  font-family: "Alan Sans";
+  margin: 0;
+  background:var(--lavender-web);
+}
+
+header {
+  background: var(--finn);
+  padding: 20px 0;
+}
+h1{
+  font-family: "Gravitas One";
+  color:var(--isabelline);
+  text-align: center;
+}
+
+
+
+.cont {
+  display: flex;
+  width: 1200px;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+
+.form {
+  width: 40%;
+  background: var(--french-mauve);
+  padding: 20px;
+  box-shadow: 0px 0px 8px var(--mimi-pink);
+  border-radius: 8px;
+}
+.form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: "Ribeye";
+}
+.form input {
+  width: 97%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 2px solid var(--palatinate);
+}
+.form button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background:  var(--amethyst);
+  color: var(--old-lace);
+  font-family: "Ribeye";
+  border-radius: 5px;
+  border: double;
+  font-size: 19px;
+  cursor: pointer;
+}
+.form input:focus {
+  background:var(--old-lace);
+}
+
+.form button:hover {
+  background: var(--timberwolf);
+}
+
+
+
+.resul {
+  width: 30%;
+}
+.box {
+  background: var(--mimi-pink);
+  border: 3px double var(--palatinate);
+  padding: 50px;
+  border-radius: 24px;
+  color: var(--finn);
+}
+.box h2 {
+  margin-top: 0;
+  color:  var(--palatinate);
+  font-family: "Ribeye";
+}
+#inf{
+  font-family: "Alan Sans";
+}
+
+button{
+  font-family: "Ribeye";
+}
+#cerrar {
+  margin-top: 15px;
+  padding: 8px 12px;
+  background: var(--amethyst);
+  color: var(--old-lace);
+  border: double;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90px;
+  padding: 10px;
+}
+#cerrar:hover {
+  background:var(--timberwolf);
+}
